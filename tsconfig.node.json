@@ -1,13 +1,12 @@
 {
   "compilerOptions": {
-    "moduleResolution": "bundler",  // Keep this since you're using Vite
     "target": "ES2022",
-    "jsx": "react-jsx",
     "lib": ["ES2023"],
     "module": "ESNext",
     "skipLibCheck": true,
 
     /* Bundler mode */
+    "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "isolatedModules": true,
     "moduleDetection": "force",
@@ -19,8 +18,5 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": [
-    "src/**/*",  // Include the entire source folder
-    "vite.config.ts"  // Include your Vite config if necessary
-  ]
+  "include": ["vite.config.ts"]
 }
