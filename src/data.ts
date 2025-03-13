@@ -4,10 +4,11 @@ export const skills: Skill[] = [
   { name: 'Laravel', icon: '🔧', level: 90 },
   { name: 'React.js', icon: '⚛️', level: 85 },
   { name: 'Tailwind CSS', icon: '🎨', level: 95 },
-  { name: 'HTML', icon: '📄', level: 95 },
-  { name: 'CSS', icon: '🎯', level: 90 },
+  { name: 'HTML', icon: '📄', level: 100 },
+  { name: 'CSS', icon: '🎯', level: 75 },
   { name: 'Firebase', icon: '🔥', level: 80 },
   { name: 'MySQL', icon: '📊', level: 85 },
+  { name: 'Express.js', icon: '', level: 90 },
 ];
 
 export const projects: Project[] = [

@@ -15,7 +15,7 @@ export default function Footer() {
           <div className="flex flex-col md:items-end justify-center">
             <div className="flex gap-4">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/maminoufz"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-500"
@@ -23,7 +23,7 @@ export default function Footer() {
                 <Github className="w-6 h-6" />
               </a>
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/mohammed-lamine-fezzani-086a272b2/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-500"
